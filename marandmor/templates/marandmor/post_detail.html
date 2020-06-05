@@ -1,0 +1,48 @@
+{% extends "marandmor/base.html" %}
+{% block content%}
+	   <table style = 'margin-left:auto; margin-right:auto;' >
+            <tr>
+                <th> S/N  </th>
+                <th> Item </th>
+                <th> Price </th>
+                <th> Date Posted</th>
+                <th> Created By </th>
+                <th> Modified By </th>
+            </tr>
+      
+            <tr>
+                <td>{{ forloop.counter }} </td>
+                <td>{{ object.Item }} </td>
+                <td>{{ object.Price }}  </td>
+                <td>{{ object.Date_Posted|date:"F d, Y" }} </td>
+                <td>{{ object.Created_By }} </td>
+                <td>{{ object.Modified_By }} </td>
+            </tr>
+
+    {% if object.Created_By == user  %}
+       <div>
+          <a class = "btn btn-secondary btn-sm mt-1 mb-1" href ="{% url 'post-update' object.id %}"> Update </a>
+          <a class = "btn btn-danger btn-sm mt-1 mb-1" href ="{% url 'post-delete' object.id %}"> Delete </a>
+       </div>
+       {% elif object.Modified_By == user%}
+       <div>
+          <a class = "btn btn-secondary btn-sm mt-1 mb-1" href ="{% url 'post-update' object.id %}"> Update </a>
+          <a class = "btn btn-danger btn-sm mt-1 mb-1" href ="{% url 'post-delete' object.id %}"> Delete </a>
+       </div>
+    {% endif %}
+   
+       </table> 
+
+       <article class = "media content-section"> 
+        <div class ="media-body">
+          {{object.Specification}}
+        </div>
+      </article>
+
+       
+
+       
+   
+       
+
+{% endblock content %}

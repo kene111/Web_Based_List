@@ -1,0 +1,85 @@
+
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+  position:relative; 
+  min-height: 100vh;
+  background-image:url({% static "marandmor/mar2.png" %});
+  background-attachment:fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+}
+
+footer {
+  position: absolute;
+  background-color:Gray;
+  margin-top:25px; 
+  padding:3px; 
+  position: absolute;
+  height: 3.5% ; 
+  width: 100%; 
+  bottom: 0;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+
+
+}
+th {
+    background-color: #3cb371;
+
+
+}
+
+table {
+
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-top:auto; 
+    margin-bottom:auto;
+
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+.bg-steel {
+  background-color: #3cb371;
+}
+
+.site-header .navbar-nav .nav-link {
+  color:#cbd5db ;
+}
+'
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+

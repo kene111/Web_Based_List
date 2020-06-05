@@ -1,0 +1,32 @@
+{% extends "marandmor/base.html" %}
+{% block content%}
+	   <table>
+            <tr>
+                <th> S/N  </th>
+                <th> Item </th>
+                <th> Price </th>
+                <th> Date Posted</th>
+                <th> Created By </th>
+                <th> Modified By </th>
+            </tr>
+   {% if posts %}
+   {% for post in posts %}      
+            <tr>
+                <td>{{ forloop.counter }} </td>
+                <td><a href = " {% url 'post-detail' post.id %}">{{  post.Item  }} </a> </td>
+                <td>{{ post.Price }}  </td>
+                <td>{{ post.Date_Posted|date:"F d, Y" }} </td>
+                <td>{{ post.Created_By }} </td>
+                <td>{{ post.Modified_By }} </td>                
+            </tr>
+   {% endfor %}
+   {% else %}
+   <h1> No search results found </h1>
+   {% endif %}
+
+
+
+
+       </table> 
+       
+{% endblock content %}
