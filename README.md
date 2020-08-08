@@ -6,7 +6,7 @@ equipments and their prices, so everyone working in the firm could have access t
 get deployed it would be something fun to work on.
 
 # AIM.
-The aim of the project is to build an online list of equipments and their prices so everyone working in the firm could have access. 
+The aim of the project is to build an online list of equipments, specifications, and their prices so everyone working in the firm could have access. 
 You would have to register as a user on the web platform to input anything, you could change the price of an equipment someone else uploaded assuming you are aware that price and specification of that equipment has changed and the person who initially uploaded it doesn't, of course it would be shown that you had made some changes. You could also change your password incase forgotten.
 
 # Tools.
