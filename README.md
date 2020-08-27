@@ -29,7 +29,7 @@ virtual enviroment installed on your system you can install it using -> pip inst
 - When this is done, activate the application -> python manage.py runserver
 - Go to your web browser(I use Google chrome), create a new incognito page and type in http://127.0.0.1:8000
 
-Kindly note: For this project I didn't add my secret key but you can generate your own secret key. Here are some websites that generate secrete keys for django applications:
+Kindly note: For this project I didn't add my secret key but you can generate your own secret key. Here are some websites that generate secret keys for django applications:
 - https://djecrety.ir/
 - https://miniwebtool.com/django-secret-key-generator/
 
@@ -41,5 +41,5 @@ adding javascript to the stack.
 
 
 
-This project commenced few months to the end of the year 2019 and
+This project commenced a few months to the end of the year 2019 and
 was completed two weeks into the year 2020.
