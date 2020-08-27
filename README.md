@@ -14,11 +14,32 @@ I used HTML, CSS and BOOTSTRAP for the front end.
 I used the django web frame work for the backend.
 In the case of deployment I created a postgres database. Although, while working on the site I used the sqlite that comes with django.
 
-# Slight drawbacks
+
+# How to view this project on your desktop.
+Make sure you have pip installed on your system. If you have python 3.6 upwards, you would most likely have pip pre-installed. Have a virtual enviroment, if you do not have
+virtual enviroment installed on your system you can install it using -> pip install virtualenv on your CLI. Once that is installed, proceed with the following steps:
+
+- Clone the repo
+- On your CLI, cd to the repo on your desktop.
+- Create your own virtualenv -> virtualenv name_of_your_env
+- Activate your env(windows) -> name_of_your_env\Scripts\activate 
+   ''         ''   ''(ios)   -> source name_of_your_env/bin/activate
+- Change directory to the applications root directory-> cd mar_mor
+- Install the requirements-> pip install -r requirements.txt
+- When this is done, activate the application -> python manage.py runserver
+- Go to your web browser(I use Google chrome), create a new incognito page and type in http://127.0.0.1:8000
+
+Kindly note: For this project I didn't add my secret key but you can generate your own secret key. Here are some websites that generate secrete keys for django applications:
+- https://djecrety.ir/
+- https://miniwebtool.com/django-secret-key-generator/
+
+
+
+# Slight drawback
 The front end is not aesthetically pleasing, hence I am improving on my front-end skills by working on my html and css and also
-adding javascript to it.
+adding javascript to the stack.
 
 
 
-I would like to note that this is a project I started few months to the end of the year 2019 and
-finished two weeks into the year 2020.
+This project commenced few months to the end of the year 2019 and
+was completed two weeks into the year 2020.
