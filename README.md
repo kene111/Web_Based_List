@@ -33,6 +33,8 @@ Kindly note: For this project I didn't add my secret key but you can generate yo
 - https://djecrety.ir/
 - https://miniwebtool.com/django-secret-key-generator/
 
+make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret_key'
+
 
 
 # Slight drawback
