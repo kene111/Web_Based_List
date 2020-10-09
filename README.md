@@ -36,17 +36,25 @@ Kindly note: For this project I didn't add my secret key but you can generate yo
 make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret_key'
 
 
-### Web View
+# Web View
 
-
+### home view
 ![image1](images/first_view.png)
+### input new data view
 ![image2](images/input_new_data.png)
+### Logged-in data view
 ![image3](images/logged_in.png)
+### Logged-out data view
 ![image4](images/logged_out_view.png)
+### Login data view
 ![image5](images/login.png)
+### Profile view
 ![image6](images/profile.png)
+### Registeration view
 ![image7](images/registeration.png)
+### Search view
 ![image8](images/search.png)
+### Specification view
 ![image9](images/specification.png)
 
 
