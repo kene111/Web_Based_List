@@ -42,7 +42,7 @@ make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret
 ![image1](images/first_view.png)
 ![image2](images/input_new_data.png)
 ![image3](images/logged_in.png)
-![image4](images/logged_out.png)
+![image4](images/logged_out_view.png)
 ![image5](images/login.png)
 ![image6](images/profile.png)
 ![image7](images/registeration.png)
