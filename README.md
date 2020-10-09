@@ -36,6 +36,21 @@ Kindly note: For this project I didn't add my secret key but you can generate yo
 make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret_key'
 
 
+# Web View
+
+
+![image1](images/first_view.png)
+![image2](images/input_new_data.png)
+![image3](images/logged_in.png)
+![image4](images/logged_out.png)
+![image5](images/login.png)
+![image6](images/profile.png)
+![image7](images/registeration.png)
+![image8](images/search.png)
+![image9](images/specification.png)
+
+
+
 
 # Slight drawback
 The front end is not aesthetically pleasing, hence I am improving on my front-end skills by working on my html and css and also
