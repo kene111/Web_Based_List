@@ -36,7 +36,7 @@ Kindly note: For this project I didn't add my secret key but you can generate yo
 make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret_key'
 
 
-# Web View
+### Web View
 
 
 ![image1](images/first_view.png)
