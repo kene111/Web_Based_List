@@ -38,9 +38,10 @@ make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret
 
 # Web View
 
-### home view
+
+### Home view
 ![image1](images/first_view.png)
-### input new data view
+### Input new data view
 ![image2](images/input_new_data.png)
 ### Logged-in data view
 ![image3](images/logged_in.png)
