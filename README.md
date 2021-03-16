@@ -47,7 +47,7 @@ make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret
 ![image3](images/logged_in.png)
 ### Logged-out data view
 ![image4](images/logged_out_view.png)
-### Login data view
+### Login view
 ![image5](images/login.png)
 ### Profile view
 ![image6](images/profile.png)
