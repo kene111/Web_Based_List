@@ -43,9 +43,9 @@ make sure your secret key is in string format i.e SECRET_KEY = 'generated_secret
 ![image1](images/first_view.png)
 ### Input new data view
 ![image2](images/input_new_data.png)
-### Logged-in data view
+### Logged-in view
 ![image3](images/logged_in.png)
-### Logged-out data view
+### Logged-out view
 ![image4](images/logged_out_view.png)
 ### Login view
 ![image5](images/login.png)
